@@ -1,0 +1,12 @@
+h1 {
+  font-size: 50px;
+}
+
+.form,
+.greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
