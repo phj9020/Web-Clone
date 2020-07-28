@@ -3,26 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Momentum</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <title>Momonton</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="js-clock">
-      <h1 class="js-title">00:00</h1>
+
+    <section class="center">
+      <div class="js-clock clock">
+        <h1 class="js-title">00:00</h1>
+      </div>
+
+      <div class="name">
+        <form class="js-form form">
+          <input type="text" placeholder="What is your Name?" type="text" />
+        </form>
+        <h4 class="js-greeting greeting"></h4>
+      </div>
+
+      <div>
+        <form class="js-toDoForm to-do">
+          <input type="text" placeholder="Write a To Do here">
+        </form>
+        <ul class="js-toDoList list"></ul>
+      </div>
+    </section>
+    
+
+
+    <div class="js-weather weather">
+      <span class="js-weather"></span>
     </div>
-    <form class="js-form form">
-      <input type="text" placeholder="What is your Name?" />
-    </form>
-    <h4 class="js-greeting greeting"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do">
-    </form>
-    <ul class="js-toDoList">
-     
-    </ul>
-  </body>
+
     <script src="js/clock.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
